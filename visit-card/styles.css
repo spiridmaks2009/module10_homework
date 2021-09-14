@@ -1,0 +1,72 @@
+.menu-item {
+    margin: 20px 0px;
+    border-left: 6px solid green;
+    padding-left: 4px;
+}
+
+.link {
+    color: green;
+    text-align: center;
+    padding: 3px;
+    transition: color .5s;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: red;
+}
+
+.header {
+    border-bottom: 2px solid black;
+    padding: 15px;
+    margin: 0 20px;
+    background-color: wheat;
+    font-family: 'Roboto', serif;
+    text-align: center;
+}
+
+.img-container {
+    padding: 30px 10px;
+    background-color: gray;
+    text-align: center;
+}
+
+.img {
+    border: 2px solid blueviolet;
+}
+
+.item {
+    margin: 40px 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: brown;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+    margin: 20px 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Roboto', serif;
+    font-size: 32px;
+}
+
+.right-section {
+    margin-left: 30px;
+}
+
+.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
