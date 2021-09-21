@@ -8,12 +8,13 @@
 <body>
     <h1 class="title">PHOTO SLIDER</h1>
     <div class="container">
-        <button class="button button-previous" onclick="previousImg()"></button>
+        <button id="button-previous" class="button" onclick="previousImg()"></button>
         <div class="img_container">
-            <img id="img" src="assets/1.jpg" class="img" alt="Image">
+            <img id="img" class="img" alt="Image">
         </div>
-        <button class="button button-next" onclick="nextImg()"></button>
+        <button id="button-next" class="button" onclick="nextImg()"></button>
     </div>
+    <h2 id="label">Label</h2>
 <script src="slider.js"></script>
 </body>
 </html>

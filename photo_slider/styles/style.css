@@ -29,10 +29,21 @@
     border: none;
 }
 
-.button-next {
+button:active,
+button:focus {
+    outline: none;
+}
+
+#button-next {
     background: url("../icons/next.png");
 }
 
-.button-previous {
+#button-previous {
     background: url("../icons/previous.png");
+}
+
+#label {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
 }
