@@ -29,10 +29,14 @@
     border: none;
 }
 
-button:active,
-button:focus {
+.button:active {
     outline: none;
 }
+
+.button:hover {
+    cursor: pointer;
+}
+
 
 #button-next {
     background: url("../icons/next.png");
