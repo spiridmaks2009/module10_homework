@@ -1,0 +1,39 @@
+.btn {
+    margin: 5px 5px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #315efb;
+    transition: 0.3s;
+}
+
+.send-btn {
+
+}
+
+.geo-btn {
+
+}
+
+.msg {
+    margin-right: 10px;
+    line-height: 25px;
+    border: blue solid 2px;
+    background-color: aquamarine;
+}
+
+#chat {
+    margin-top: 20px;
+    border: solid blue 2px;
+    background-color: aquamarine;
+    min-height: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+}
