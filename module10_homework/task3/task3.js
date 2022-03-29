@@ -35,3 +35,25 @@ function sendMessage(message) {
     mes.innerHTML = message
     chat.appendChild(mes)
 }
+
+btnGeo.addEventListener('click', async () => {
+    const success = (position) => {
+        const latitude = position.coords.latitude
+        const longitude = position.coords.longitude
+        sendMessage(`<a href="https://www.openstreetmap.org/#map=5/${latitude}/${longitude}" target="_blank">Ссылка на карту</a>`);
+    }
+
+    const error = () => {
+        let err = document.createElement("p")
+        err.innerHTML = "ERROR"
+        chat.appendChild(err)
+    }
+
+    if (!navigator.geolocation) {
+        status.textContent = 'Geolocation не поддерживается вашим браузером';
+    } else {
+        status.textContent = 'Определение местоположения...';
+    }
+
+    navigator.geolocation.getCurrentPosition(success, error)
+})
